@@ -46,8 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="設定每隔幾分鐘提醒林水："
-        app:layout_constraintStart_toStartOf="@+id/tv_setword"
-        app:layout_constraintTop_toBottomOf="@+id/tv_setword" />
+        app:layout_constraintStart_toStartOf="@+id/tv_info"
+        app:layout_constraintTop_toBottomOf="@+id/tv_info" />
 
     <EditText
         android:id="@+id/ed_min"
@@ -79,24 +79,26 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_min" />
 
     <TextView
-        android:id="@+id/tv_setword"
+        android:id="@+id/tv_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="60dp"
         android:text="設定林水提醒文字："
+        android:inputType="text"
+        android:fontFamily="Noto+Sans+TC"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5" />
 
     <EditText
-        android:id="@+id/ed_setword"
+        android:id="@+id/ed_info"
         android:layout_width="230dp"
         android:layout_height="48dp"
         android:ems="10"
         android:hint="請輸入提醒文字"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_setword"
-        app:layout_constraintStart_toEndOf="@+id/tv_setword"
-        app:layout_constraintTop_toTopOf="@+id/tv_setword" />
+        app:layout_constraintBottom_toBottomOf="@+id/tv_info"
+        app:layout_constraintStart_toEndOf="@+id/tv_info"
+        app:layout_constraintTop_toTopOf="@+id/tv_info" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
