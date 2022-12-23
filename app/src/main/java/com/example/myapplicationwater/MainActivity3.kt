@@ -26,7 +26,7 @@ class MainActivity3 : AppCompatActivity() {
             var h = (ed_height.text.toString().toInt() * 0.01)*(ed_height.text.toString().toInt() * 0.01)
             var waterAmount = ed_weight.text.toString().toInt() * 30
             var bmi = w/h
-            tv_id.text = "姓名： " + ed_name.text +"\n"+ "身高： " + ed_height.text +"cm\t\t"+ "體重： " + ed_weight.text +"kg"+"\n" + "BMI： " + bmi.toInt()
+            tv_id.text = "姓名： " + ed_name.text +"\n"+ "身高： " + ed_height.text +"cm\t\t"+ "體重： " + ed_weight.text +"kg"+"\n" + "BMI ： " + bmi.toInt()
 
             ed_name.text = null
             ed_height.text = null
